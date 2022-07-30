@@ -1,0 +1,106 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/* .image
+{
+
+    background-image: url("https://s1.1zoom.me/big0/607/India_Rivers_Riverboat_Boats_Alappuzha_Kerala_527749_1280x850.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+.background
+{
+   height: 59px;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    padding-top: 0px;
+    font-size: 50px;
+}
+.para
+{
+    text-align:center;
+    font-size: 30px;
+    font-style: oblique;
+    padding-top: 0px;
+}
+.container
+{
+    width: 400px;
+    height: 500px;
+    background-color:transparent;
+    justify-content: space-around;
+    padding: center;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 2px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   border: inset;
+   }
+.usr
+{
+    /* margin-top: 20px;    */
+    height: 80px;
+    width: 380px;
+    background-color: black;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 50px;
+    justify-items: center;
+    /* border: inset; */
+    background-color:transparent;
+    
+}
+.psw
+{
+    height: 80px;
+    width: 380px;
+    background-color: rgb(34, 20, 145);
+    padding-top: 20px;
+    border-radius: 50px;
+    /* border: inset; */
+    background-color:transparent;
+}
+.submit
+{
+    height: 80px;
+    width: 380px;
+    background-color: rgb(214, 37, 114);
+    padding-top: 20px;
+    border-radius: 50px;
+    /* border: inset; */
+    background-color:transparent;
+}
+.usr input
+{
+    height: 80px;
+    width: 380px;  
+    border-radius: 50px;
+    font-size: 25px;
+    background-image: linear-gradient(0deg,pink,purple);
+}
+.psw input
+{
+    height: 80px;
+    width: 380px;  
+    border-radius: 50px;
+    font-size: 25px;
+    background-image: linear-gradient(0deg,pink,purple);
+    
+}
+.submit input
+{
+    height: 80px;
+    width: 380px;  
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: rgb(206, 87, 216);
+}
+
+       
+   

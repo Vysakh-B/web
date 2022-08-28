@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "permenent Marker", cursive;
+    font-family: "monospace";
     cursor: pointer;
     align-items: center;
     background-color: rgb(37, 93, 190);

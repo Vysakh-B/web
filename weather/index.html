@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="right">
+            <div id="head"> the Weather</div>
+            <div id="box">
+                <div id="temp">
+                    <div id="num">27</div>
+                    <div id="deg">o</div>
+                    <div id="place">Newyork</div>
+                    <div id="icon"></div>
+                    
+                </div>
+            
+                <div id="bottom">
+                <div id="time">12:10</div>
+                <div id="date">22/09/2022</div>
+                <div id="mode">cloudy</div>
+            </div>
+            </div>
+        </div>
+        <div id="left">
+            <div id="search">
+                <div id="value"><input type="text" placeholder="search the city" id="in"></div>
+                <div id="cali" onclick="myfunc('california')"><li>california</li></div>
+                <div id="new" onclick="myfunc('Newyork')"><li>Newyork</li></div>
+                <div id="ker" onclick="myfunc('kerala')"><li>kerala</li></div>
+            </div>
+            <div id="details">
+                <div id="text">Weather Details</div>
+                <div id="cloud">cloudy
+                    <div id="per">55%</div>
+                </div>
+                <div id="humidity">Humidity
+                    <div id="perc">79%</div>
+                </div>
+                <div id="wind">Wind
+                    <div id="speed">15.01 km/Hr</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

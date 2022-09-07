@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(83, 163, 242);
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/photo-1533983272060-edb6f56af634.jpg");
+    object-fit: cover;
+    background-size:cover ;
+    background-repeat: no-repeat;   
+}
+#right {
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 20rem black;
+}
+
+#head {
+    width: fit-content;
+    height: fit-content;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 2rem;
+    margin-left: 30px;
+}
+
+#box {
+    width: 100%;
+    height: 30%;
+}
+
+#temp {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#num {
+    height: 100%;
+    width: 25%;
+    font-size: 120px;
+    text-align: right;
+}
+
+#deg {
+    font-size: 30px;
+}
+
+#place {
+    height: 90%;
+    width: 500px;
+    font-size: 70px;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+#icon {
+    height: 100px;
+    width: 110px;
+    margin-left: 30px;
+    background-image: url("images/419h+mbk5-L.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 50px;
+}
+#bottom {
+    display: flex;
+    flex-direction: row;
+}
+#time {
+    width: 35%;
+    height: fit-content;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#date {
+    width: 35%;
+    height: fit-content;
+    margin-top: 20px;
+    font-size: 30px;
+}
+#mode {
+    width: 30%;
+    height: fit-content;
+    font-size: 40px;
+    text-align: center;
+margin-left: 20px;
+    margin-top: 15px;
+}
+#search{
+    width: 45vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#value 
+{
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
+}
+#value input
+{
+    width: 95%;
+    height: 50px;
+   margin-top: 10px;
+   margin-left: 10px;
+   padding: 9px;
+   font-size: 25px;
+   background-color: cadetblue;
+
+   border-radius: 50px;
+
+}
+#cali,#new,#ker{
+    font-size: 30px;
+}
+#details{
+    width: 45vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#text{
+    width: 45vw;
+    height: fit-content;
+    font-size: 40px;
+    text-align: center;
+}
+#cloud{
+width: 45vw;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 30px;
+}
+#humidity{
+    width: 45vw;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 30px;
+}
+#wind{
+    width: 45vw;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 30px;
+}
+@media only screen and (max-width:600px)
+{
+    
+    #container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+        #right {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+        }
+        #head {
+            width: 50px;
+            height: fit-content;
+            font-size: 45px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            word-spacing: 2rem;
+            margin-left: 20px;
+        }
+        #box {
+            height: fit-content;
+            /* background-color: beige; */
+            width: 100vw;
+            
+        }
+        #num {
+            height: fit-content;
+            width: fit-content;
+            margin-left: 10px;
+            font-size: 40px;
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            /* background-color: blueviolet; */
+        }
+        #icon {
+            height: 30px;
+            width: 30px;
+            margin: left 0;
+            /* margin-top: 10px; */
+            /* background-color: rgb(96, 14, 220); */
+        }
+        #deg {
+            font-size: 15px;
+            /* background-color: cadetblue; */
+            height: fit-content;
+        }
+        #place {
+            height: fit-content;
+            width: fit-content;
+            font-size: 40px;
+            text-align: center;
+           padding: 0;
+        }
+        #bottom {
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            /* background-color: darkslategrey; */
+        }
+        #time {
+            width: 35%;
+            height: fit-content;
+            /* background-color: blue; */
+            font-size: 22px;
+            text-align: center;
+        }
+        
+        #date {
+            width: 35%;
+            height: fit-content;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+        #mode {
+            width: fit-content;
+            height: fit-content;
+            font-size: 22px;
+            /* background-color: black; */
+            text-align: right;
+        margin-left: 20px;
+        }
+        #temp {
+            width: 90%;
+            height: 25%;
+           justify-content: flex-start;
+        }
+        #search{
+            width: 100%;
+            height: 50%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        #value 
+        {
+            width: 100%;
+            height: 60px;
+            border-radius: 50px;
+            
+        }
+        #value input
+        {
+            width: 95%;
+            margin-left: 7px;
+            height: 50px;
+           font-size: 19px;
+           background-color: cadetblue;
+        margin: 0;
+        border: 0;
+        padding: 0;
+           border-radius: 50px;
+        
+        }
+        #cali,#new,#ker{
+            font-size: 20px;
+        }
+        #details{
+            width: 90vw;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        #text{
+            width: 90vw;
+            font-size: 40px;
+            text-align: center;
+        }
+        #cloud{
+        width: 90vw;
+        justify-content: space-between;
+        font-size: 22px;
+        }
+        #humidity{
+            width: 90vw;
+    
+        justify-content: space-between;
+        font-size: 22px;
+        }
+        #wind{
+            width: 90vw;
+        justify-content: space-between;
+        font-size: 22px;
+        }
+        #left{
+            padding: 8px;
+        }
+    
+}

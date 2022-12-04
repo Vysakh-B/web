@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+background-image: linear-gradient(to bottom right, rgb(253, 4, 191), rgb(34, 12, 230));
+    
+background-color: rgb(28, 24, 20);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+    color: white;
+}
+
+#left {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(44, 42, 42);
+    margin-top: 80px;
+    border-radius: 40px;
+}
+
+#right {
+    width: 600px;
+    height: 600px;
+    /* background-color: rgb(188, 118, 33); */
+    margin-top: 80px;
+    
+    border-radius: 40px;
+
+}
+#up{
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    background-image: url("https://i0.wp.com/digital-photography-school.com/wp-content/uploads/flickr/14718892840_10bba8ff6d_o.jpg?fit=3774%2C2536&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px; 
+border-radius: 40px;
+background-repeat: no-repeat;
+    background-size: cover;
+margin-left: 45px;
+}
+#bot{
+    width: 600px;
+    height: 250px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#temp{
+    width: 250px;
+    height: 200px;
+    /* background-color: aqua; */
+margin-top: 25px;  
+display: flex;
+flex-direction: row; 
+background-color: rgb(84, 82, 80);
+
+    border-radius: 40px; 
+    background-image: linear-gradient(to bottom right, rgb(253, 4, 191), rgb(34, 12, 230));
+
+}
+#dig{
+height: 100px;
+width:fit-content;
+/* background-color: beige; */
+margin-top: 40px;
+font-size: 60px;
+margin-left: 20px;
+}
+#deg{
+    height: 100px;
+    width:fit-content;
+    /* background-color: rgb(74, 74, 17); */
+margin-top: 25px;
+font-size: 35px;
+}
+#cel{
+    height: 100px;
+    width:fit-content;
+    /* background-color: beige; */
+    margin-top: 17px;
+    font-size: 90px;
+}
+#wind{
+    width: 250px;
+    height: 90px;
+    background-color: rgb(84, 82, 80);
+    border-radius: 40px;  
+margin-top: 25px;   
+background-image: linear-gradient(to bottom right, rgb(253, 4, 191), rgb(34, 12, 230));
+
+}
+
+#val{
+width: 200px;
+height: 90px;
+/* background-color: beige; */
+margin-left: 25px;
+font-size: 50px;
+text-align: center;
+}
+#inp{
+width: 100%;
+height: 100px;
+/* background-color: rgb(222, 11, 176); */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+input{
+    width: 500px;
+    height: 50px;
+    padding: 8px;
+border-radius: 50px;
+font-size: 25px;
+background-color: rgb(44, 42, 42);
+color: white;
+
+}
+button{
+    width: 73px;
+    height: 73px;
+cursor: pointer;
+/* margin-top: 20px; */
+border-radius: 50px;
+background-image: url("https://www.pngmart.com/files/15/Round-Button-Transparent-PNG.png");
+        background-repeat: no-repeat;
+            background-size: cover;
+font-size: 25px;
+background-color: rgb(44, 42, 42);
+color: white;
+
+
+}
+
+#list{
+width: 100%;
+height: 500px;
+/* background-color: rgb(159, 28, 28); */
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+
+}
+#hum,#cloud,#win{
+    width: 490px;
+    height: 100px;
+    /* background-color: bisque; */
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(44, 42, 42);
+border-radius: 40px;  
+}
+.name1,.name2,.name3{
+    width: 70%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    font-size: 40px;
+    text-align: center;
+}
+#value1,#value2,#value3{
+    width: 30%;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+
+}
+@media only screen and (max-width: 600px) {
+    
+      .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    }
+    #left {
+        width: 280px;
+        height: 250px;
+        background-color: rgb(44, 42, 42);
+        /* margin-left: 80px; */
+        margin: 0;
+        margin-left: 12px;
+        border-radius: 40px;
+    }
+    
+    #right {
+        width: 280px;
+        height: 240px;
+        margin: 0;
+        margin-left: 12px;
+        /* margin-top: 80px; */
+        
+        border-radius: 40px;
+    
+    }
+    #inp{
+        width: 270px;
+        height: 40px;
+        /* background-color: rgb(222, 11, 176); */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        }
+        input{
+            width: 210px;
+        height: 35px;
+            padding: 8px;
+        border-radius: 50px;
+        border: 0;
+     
+        font-size: 23px;
+        background-color: rgb(44, 42, 42);
+        color: white;
+        
+        }
+        button{
+            width: 40px;
+            height: 40px;
+        cursor: pointer;
+        /* margin-top: 20px; */
+        border: 0;
+        border-radius: 50px;
+        /* font-size: 20px; */
+        background-color: rgb(44, 42, 42);
+        color: white;
+        
+        
+        }
+        
+        #list{
+        width: 210px;
+        height: 220px;
+        /* background-color: rgb(159, 28, 28); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        /* margin-left: 20px; */
+        
+        
+        
+        }
+        #hum,#cloud,#win{
+            width: 274px;
+        height: 50px;
+            /* background-color: bisque; */
+            /* margin-left: 50px; */
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(44, 42, 42);
+        border-radius: 40px; 
+        margin: 0; 
+        }
+        .name1,.name2,.name3{
+            width: 190px;
+            height: 50px;
+            /* background-color: blueviolet; */
+            font-size: 25px;
+            text-align: center;
+        }
+        #value1,#value2,#value3{
+            width: 80px;
+            height: 50px;
+            font-size: 25px;
+            text-align: center;
+        
+        }
+        #up{
+            width: 180px;
+            height: 150px;
+            background-color: blue;
+            background-image: url("https://i0.wp.com/digital-photography-school.com/wp-content/uploads/flickr/14718892840_10bba8ff6d_o.jpg?fit=3774%2C2536&ssl=1");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* margin-top: 20px;  */
+            margin-left: 50px;
+        border-radius: 40px;
+        background-repeat: no-repeat;
+            background-size: cover;
+        /* margin-left: 45px; */
+        }
+        #bot{
+            width: 280px;
+            height: 75px;
+            /* background-color: blueviolet; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin: 0;
+        }
+        #temp{
+            width: fit-content;
+            height: fit-content;
+            /* background-color: aqua; */
+        /* margin-top: 25px;   */
+        display: flex;
+        flex-direction: row; 
+        background-color: rgb(84, 82, 80);
+        
+            border-radius: 40px; 
+            background-image: linear-gradient(to bottom right, rgb(253, 4, 191), rgb(34, 12, 230));
+        
+        }
+        #dig{
+        height: fit-content;
+        width:fit-content;
+        /* background-color: beige; */
+        /* margin-top: 40px; */
+        font-size: 20px;
+        margin: 0;
+        /* margin-left: 20px; */
+        }
+        #deg{
+            height: fit-content;
+            width:fit-content;
+            /* background-color: rgb(74, 74, 17); */
+        /* margin-top: 25px; */
+        font-size: 18px;
+        margin: 0;
+
+        }
+        #cel{
+            height: fit-content;
+            width:fit-content;
+            /* background-color: beige; */
+            margin-top: 25px;
+            font-size:25px;
+        margin: 0;
+
+        }
+        #wind{
+            width: fit-content;
+            height: fit-content;
+            background-color: rgb(84, 82, 80);
+            /* border-radius: 40px;   */
+        /* margin-top: 25px;    */
+        background-image: linear-gradient(to bottom right, rgb(253, 4, 191), rgb(34, 12, 230));
+        
+        }
+        .text{
+        width: fit-content;
+        height: fit-content;
+        /* background-color: azure; */
+        font-size: 28px;
+        /* margin-left: 50px; */
+        margin: 0;
+        border: 0;
+        padding: 0;
+        /* padding: 4px; */
+        }
+        #val{
+        width: fit-content;
+        height: fit-content;
+        /* background-color: beige; */
+        /* margin-left: 25px; */
+        font-size: 25px;
+        margin: 0;
+        /* text-align: center; */
+        }
+    
+    
+  }
